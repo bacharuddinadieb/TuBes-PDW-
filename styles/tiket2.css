@@ -1,0 +1,402 @@
+.header-android {
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 13vw;
+	padding-left: 4vw;
+	padding-right: 1vw;
+}
+
+.back,
+.header-judul {
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-top: 2vh;
+}
+
+.header-judul {
+	width: 80%;
+}
+
+.header-judul h1 {
+	font-size: 2.8vw;
+}
+
+.back img {
+	width: 50%;
+}
+
+.subheader {
+	width: 100%;
+	height: 11vw;
+	background-image: url('../images/Asset 39.svg');
+	background-repeat: no-repeat;
+	/*background-color: grey;*/
+}
+
+.susunan {
+	float: left;
+	/*background-color: lightgrey;*/
+	height: 100%;
+	width: 30%;
+	padding-top: 1vh;
+	padding-left: 7vw;
+}
+
+.susunan h1 {
+	font-size: 5.5vw;
+	color: white;
+}
+
+.box-tiket {
+	width: 80%;
+	height: 19vw;
+	border: 1px solid lightgrey;
+	border-radius: 2vh;
+	margin-left: 9vw;
+	margin-top: 5vw;
+}
+
+.atas,
+.bawah {
+	width: 100%;
+	height: 50%;
+}
+
+.atas {
+	padding-top: 1vw;
+	padding-left: 7.5vw;
+}
+
+.atas h1 {
+	font-size: 5vw;
+}
+
+.bawah {
+	padding-top: 0.5vh;
+}
+
+.logo,
+.penjelasan {
+	float: left;
+	width: 20%;
+	height: 100%;
+	padding-left: 10vw;
+}
+
+.penjelasan {
+	width: 80%;
+}
+
+.penjelasan h1 {
+	font-size: 3vw;
+}
+
+.data-pemesanan,
+.data-harga,
+.lanjutkan {
+	width: 100%;
+	height: 7vw;
+	margin-top: 5vw;
+	padding-top: 1.5vw;
+	padding-left: 4vw;
+	background-color: rgba(89, 133, 196, 0.1);
+}
+
+.lanjutkan {
+	width: 100%;
+	height: 9vw;
+	margin-top: 5vw;
+	padding-top: 2vw;
+	padding-left: 4vw;
+	background-color: rgba(89, 133, 196, 0.1);
+	text-align: center;
+}
+
+.data-pemesanan h1,
+.data-harga h1 {
+	font-size: 3vw;
+}
+
+.lanjutkan button {
+	color: white;
+	background: linear-gradient(340deg, #484B9F, #5985C4);
+	border: none;
+	width: 30%;
+	height: 70%;
+	border-radius: 3vw;
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+.nama {
+	margin-top: 5vw;
+	margin-left: 9vw;
+	width: 85%;
+	height: 10vw;
+}
+
+.nama h1 {
+	font-size: 3vw;
+}
+
+.nama input {
+	margin-top: 1vw;
+	border: none;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 7vw;
+	font-size: 4vw;
+}
+
+.harga-awal,
+.promo,
+.harga-total {
+	width: 100%;
+	height: 10vw;
+}
+
+.harga-awal {
+	margin-top: 8vw;
+}
+
+.promo,
+.harga-total {
+	padding-top: 0vw;
+}
+
+.kanan,
+.kiri {
+	float: left;
+	width: 70%;
+	height: 100%;
+	padding-left: 9vw;
+}
+
+.kanan {
+	width: 30%;
+	padding-right: 9vw;
+	padding-left: 0;
+	text-align: right;
+}
+
+.kanan h1,
+.kiri h1 {
+	font-size: 3.5vw;
+}
+
+.android {
+	display: none;
+}
+
+.judul-pencarian {
+	width: 85%;
+	height: 5vw;
+	border-bottom: 1px solid black;
+	margin-top: 3vw;
+	margin-left: 7.8vw;
+}
+
+.pencarian-kanan,
+.tiket-lain {
+	height: 100%;
+	float: left;
+}
+
+.pencarian-kanan {
+	width: 70%;
+}
+
+.tiket-lain {
+	text-align: right;
+	padding-right: 1.3vw;
+	margin-top: 0.5vw;
+	width: 30%;
+}
+
+.kanan-atas,
+.kanan-bawah {
+	width: 100%;
+	height: 50%;
+}
+
+.kanan-atas h1 {
+	font-size: 1.3vw;
+}
+
+.kanan-bawah p {
+	font-size: 1.5vw;
+	color: grey;
+}
+
+.tiket-lain button {
+	color: white;
+	background: linear-gradient(340deg, #484B9F, #5985C4);
+	border: none;
+	width: 60%;
+	height: 50%;
+	font-size: 1.5vw;
+	border-radius: 12vw;
+}
+
+.pemesanan-desktop,
+.isi-pemesanan {
+	width: 85%;
+	height: 7.5vw;
+	border: none;
+	margin-top: 3vw;
+	margin-left: 7.8vw;
+	background-color: #5985C4;
+}
+
+.subpemesanan {
+	width: 30%;
+	float: left;
+	height: 100%;
+	padding-left: 3vw;
+	padding-top: 1.3vw;
+}
+
+.subpemesanan h1,
+.subpemesanan p {
+	color: white;
+	font-size: 1.3vw;
+}
+
+.subpemesanan p {
+	font-size: 1.5vw;
+}
+
+.isi-pemesanan {
+	border: 1px solid grey;
+	border-top: none;
+	height: 73vw;
+	background-color: white;
+	margin-top: 0;
+	margin-bottom: 10vw;
+}
+
+.header-pemesanan {
+	background-color: rgba(89, 133, 196, 0.1);
+	width: 100%;
+	height: 4vw;
+	padding-top: 1.3vw;
+	padding-left: 2vw;
+	float: left;
+}
+
+.header-pemesanan h1 {
+	font-size: 1.5vw;
+}
+
+.pengisian-data {
+	width: 85%;
+	height: 5.5vw;
+	float: left;
+	padding-top: 0.5vw;
+	margin-left: 6vw;
+	margin-bottom: 0.5vw;
+}
+
+.pengisian-data p {
+	font-size: 1.5vw;
+}
+
+.pengisian-data input {
+	width: 80%;
+	height: 1.5vw;
+	border: none;
+	margin-top: 0.5vw;
+	border-bottom: 1px solid black;
+	font-size: 1.5vw;
+}
+
+.pilih-titel {
+	padding-left: 8vw;
+	width: 30%;
+	margin-top: 3vw;
+	height: 20vw;
+	float: left;
+}
+
+.data-penumpang {
+	margin-top: 3vw;
+	width: 70%;
+	height: 3vw;
+	float: right;
+}
+
+.pilih-titel h1 {
+	font-size: 1.5vw;
+}
+
+.pilih-titel form {
+	font-size: 1.5vw;
+	margin-top: 1vw;
+}
+
+form input {
+	margin-top: 1vh;
+}
+
+.data-penumpang h1 {
+	font-size: 1.5vw;
+}
+
+.data-penumpang input {
+	margin-top: 2vw;
+	width: 80%;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.fasilitas {
+	width: 100%;
+	height: 15vw;
+	float: left;
+}
+
+.kotak-fasilitas,
+.tulisan-fasilitas {
+	width: 10vw;
+	height: 10vw;
+	background-color: rgba(89, 133, 196, 0.1);
+	float: left;
+	margin-left: 9vw;
+	border-radius: 2vw;
+}
+
+.kotak-fasilitas {
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+.tulisan-fasilitas {
+	width: 20vw;
+	height: 10vw;
+	background-color: white;
+	margin-top: 1vw;
+	margin-left: 1vw;
+	text-align: center;
+}
+
+.tulisan-fasilitas h1 {
+	font-size: 3vw;
+}
+
+.menu-pembayaran {
+	width: 100%;
+	float: left;
+	height: auto;
+	text-align: center;
+}
+
+.menu-pembayaran button {
+	text-align: center;
+	color: white;
+	background-color: #F15A24;
+	font-size: 1.5vw;
+	border: none;
+	border-radius: 10vw;
+	padding: 1.5% 2%;
+}
